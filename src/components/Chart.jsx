@@ -50,7 +50,7 @@ const MyChart = () => {
         color: "none",
       },
     },
-    chartArea: { left: 24, top: 10, width: "100%", height: "81%" },
+    chartArea: { left: 24, top: 5, width: "100%", height: "81%" },
   };
   return (
     <div className="container">
