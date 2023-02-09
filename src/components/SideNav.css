@@ -1,0 +1,52 @@
+.custom-nav .me-auto.navbar-nav {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: rgba(26, 28, 34, 1);
+}
+.side-nav-links {
+  height: 40vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+nav.custom-nav-main.navbar {
+  display: block;
+  margin-top: 0rem !important;
+  padding: 0px;
+  margin: 0px;
+  margin-right: 0px;
+}
+.custom-nav a.nav-link {
+  color: rgba(169, 169, 169, 1);
+  margin-right: 31px;
+  margin-left: 25px;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: #fff !important;
+}
+.custom-nav a.nav-active.nav-link {
+  background: rgba(103, 90, 255, 1);
+  color: #fff !important;
+  margin-right: 31px;
+  margin-left: 25px;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 14px;
+}
+.custom-nav a.nav-link {
+  margin-left: 20px;
+  padding-left: 25px !important;
+  font-size: 14px;
+  margin: 0rem 0rem 0rem 0rem;
+  margin-right: 31px;
+  margin-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px 0px 0px 30px;
+}
+svg.nav-icon {
+  font-size: 14px;
+  margin-right: 5px;
+}
